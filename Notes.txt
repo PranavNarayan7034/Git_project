@@ -1,0 +1,33 @@
+pranav@pranav-Aspire-Lite-AL15-41:~/Desktop/Git_Project$ git branch                         // LIST BRANCHES
+* master
+pranav@pranav-Aspire-Lite-AL15-41:~/Desktop/Git_Project$ git branch feature-development    // CREATE BRANCH
+pranav@pranav-Aspire-Lite-AL15-41:~/Desktop/Git_Project$ git branch feature-login 
+pranav@pranav-Aspire-Lite-AL15-41:~/Desktop/Git_Project$ git branch feature-signup 
+pranav@pranav-Aspire-Lite-AL15-41:~/Desktop/Git_Project$ git branch
+  feature-development
+  feature-login
+  feature-signup
+* master
+pranav@pranav-Aspire-Lite-AL15-41:~/Desktop/Git_Project$ git branch -m feature-development feature-profile  // RENAME BRANCH
+pranav@pranav-Aspire-Lite-AL15-41:~/Desktop/Git_Project$ git checkout feature-login                         // CHANGE BRANCH
+Switched to branch 'feature-login'
+pranav@pranav-Aspire-Lite-AL15-41:~/Desktop/Git_Project$ git branch
+* feature-login
+  feature-profile
+  feature-signup
+  master
+pranav@pranav-Aspire-Lite-AL15-41:~/Desktop/Git_Project$ git switch -c feature-autherozation    // CREATE NEW BRANCH AND CHANGE BRANCH
+Switched to a new branch 'feature-autherozation'
+pranav@pranav-Aspire-Lite-AL15-41:~/Desktop/Git_Project$ git branch
+* feature-autherozation
+  feature-login
+  feature-profile
+  feature-signup
+  master
+pranav@pranav-Aspire-Lite-AL15-41:~/Desktop/Git_Project$ git branch -d feature-signup     // DELETE BRANCH
+Deleted branch feature-signup (was 4367303).
+pranav@pranav-Aspire-Lite-AL15-41:~/Desktop/Git_Project$ git branch
+* feature-autherozation
+  feature-login
+  feature-profile
+  master
